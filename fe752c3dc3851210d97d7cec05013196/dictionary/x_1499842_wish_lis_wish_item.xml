@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="466a6c71c3091210d97d7cec05013156" label="Wish Item" max_length="40" name="x_1499842_wish_lis_wish_item" type="collection">
         <element label="requestor" max_length="32" name="requestor" reference="sys_user" type="reference"/>
-        <element label="item" max_length="125" name="item" type="string"/>
+        <element label="Quantity" max_length="40" name="quantity" type="integer"/>
+        <element label="URL" max_length="1024" name="url" type="url"/>
+        <element display="true" label="item" max_length="125" name="item" type="string"/>
         <index name="index">
             <element name="requestor"/>
         </index>
